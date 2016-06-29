@@ -1,18 +1,13 @@
-@media screen and()
-
-
-
-
-
 body {
 
   overflow: hidden;
 }
+
  @font-face {
     font-family: 'Lato', sans-serif;
     src: url("https://fonts.googleapis.com/css?family=Lato:400,300,700");
 }
-}
+
 .wrapper {
   min-height: 100vh;
   font-family: 'Lato', sans-serif;
