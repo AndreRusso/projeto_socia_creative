@@ -1,20 +1,14 @@
 @media screen and (max-width: 768px) and (min-width: 320px){
 
   body {
-
-  overflow: hidden;
+overflow: hidden;
 }
  @font-face {
     font-family: 'Lato', sans-serif;
     src: url("https://fonts.googleapis.com/css?family=Lato:400,300,700");
 }
 
-.wrapper {
-  min-height: 100vh;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  position: relative;
-}
+.wrapper {/* position: relative; *//* width: 240%; */}
 
 section {
   height: 100vh;
@@ -199,8 +193,8 @@ section:nth-child(7) {
 }
 
 
-.sobre{position: relative;width: 55%;height: 70%;display: inline-block;}
-.sobre h2 {display: initial;position: absolute;}
+.sobre{width: 100%;height: 68%;font-size: 45%;}
+.sobre h2 {position: relative;}
 
 
 .informacoes {
@@ -232,46 +226,33 @@ section:nth-child(7) {
   border-image-slice: 1;
   }
 #btn_inf  {
-    width: 22%;
-    height: 100%;
-    background-color: #333333;
-    background-image: url('../img/icon/informacoes.png');
-    background-position: center;
-    background-size: 70%;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    float: left;
+    width: 9em;
+    height: 9em;
     border: 9px solid #ff7a46;
-    /* transition: margin 0.2s ease-in 0s; */
+    margin-left: 8%;
     }
     #btn_inf:focus {
       box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
     }
 #btn_obj{
-    width: 22%;
-    height: 100%;
-    background-color: #333333;
+    width: 9em;
+    height: 9em;
+    ': #333333;;
     background-image: url('../img/icon/objetivos.png');
-    background-position: center;
-    background-size: 65%;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    float: right;
+    ;;;;
+    ;;
+    ;;;;
+    ;;
+    ;;;;
     border: 9px solid #2176B8;
-    /* transition: margin 0.2s ease-in 0s; */
+    ;;
+  ;;margin-right: 8%;;;
   }
 #btn_fi{
-    width: 22%;
-    height: 100%;
-    background-color: #333333;
-    background-image: url('../img/icon/filosofia.png');
-    background-position: center;
-    background-size: 65%;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    float: left;
+    width: 9em;
+    height: 9em;
     border: 9px solid #38CE8E;
-    /* transition: margin 0.2s ease-in 0s; */
+    margin-left: 8%;
   }
 #info_info{
   position: absolute;
@@ -657,11 +638,11 @@ section:nth-child(7) {
 }
 
 .filosofia-title {
-  font-size: 100%;
-  top: 37%;
-  left: 19%;
-  float: left;
-  padding: 0% 2% 2% 7%;
+  font-size: 120%;
+  width: 54%;
+  top: 30%;
+  LEFT: -13px;
+  padding: 0% 0% 1% 4%;
   border-bottom: 10px solid #38CE8E;
 }
 
@@ -670,18 +651,19 @@ section:nth-child(7) {
 }
 
 .objetivos-title {
-  font-size: 100%;
+  font-size: 1.2em;
+  width: 30%;
   top: 38%;
-  right: 19%;
-  padding: 0% 4% 2% 4%;
-  border-bottom: 10px solid #2176b8;
+  LEFT: 2%;
+  padding: 0% 4% 1% 4%;
+  border-bottom: 9px solid #2176b8;
 }
 
 .objetivos-title .bold {
   font-weight: 700;
 }
 
-.informacoes-title {font-size: 100%;top: 35%;right: 6%;padding: 0% 17.5% 2% 8%;border-bottom: 10px solid #ff7a46;}
+.informacoes-title {font-size: 150%;width: 30%;top: 35%;right: 2%;padding: 0% 7.5% 1% 7%;border-bottom: 9px solid #ff7a46;}
 
 .informacoes-title .bold {
   font-weight: 700;
@@ -846,11 +828,10 @@ width: 60%;
 }
 
 .oque_slide {
-  background-image: url('../img/icon/tablet.png');
-  width: 33%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
+  width: 80%;
+  height: 80%;
+  background-size: contain;
+  margin-top: 10%;
 }
 .carousel-cell {
   background: red;
@@ -951,6 +932,6 @@ border-image-slice: 1;
   }
 
   .menu{
-z-index: 99;
-}
+z-index: 99;
+}
 }
